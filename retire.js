@@ -16,6 +16,7 @@ function retireForm(){
          }
 	 catch{
 	      document.getElementById("retireErr").innerHTML = "Bad input, try again.";
+
 	 
          }
       }
