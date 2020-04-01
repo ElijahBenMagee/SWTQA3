@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SW Testing and QA Homework 3</title>
+    <style>
+        .error {
+          color: #FF0000;
+        }
+    </style>
+    <script src="retire.js">    </script>
+    <script src="body.js">    </script>
+</head>
+
+<body>
+    <h1>Body Mass Index Calculator</h1>
+
+    Height in feet: <input type="text" size="10" id="heightf">
+    <br><br>
+
+    Height in Inches: <input type="text" size="10" id="heighti">
+    <br><br>
+
+    Weight in pounds: <input type="text" size="10" id="weight">
+    
+    <br>
+    <span class="error" id="bodyErr">Fill in the boxees</span>
+    <br><br>
+    <button onclick="bodyForm()">Calculate</button>
+
+    <h1>Retirement Calculator</h1>
+
+    Age in years: <input type="text" size="10" id="curAge">
+    <br><br>
+    
+    Current Salary: <input type="text" size="10" id="curSal">
+    <br><br>
+
+    Percentage Saved: <input type="text" size="10" id="saved">
+    <br><br>
+
+    Retirement Goal (money): <input type="text" size="10" id="goal">
+    <br>
+    <span class="error" id="retireErr">Fill in the boxes.</span>
+    <br><br>
+    <button onclick="retireForm()">Calculate</button>
+
+</body>
+
+</html>
