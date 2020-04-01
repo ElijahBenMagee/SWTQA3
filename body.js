@@ -5,20 +5,21 @@ function bodyForm(){
 	     var h2 = parseInt(document.getElementById("heighti").value);
 	     var w = parseInt(document.getElementById("weight").value);
              var h = h1*12+h2;
-             var bmi = w*.45/((0.025*h)**2);
+             var bmi = w*0.45/((0.025*h)**2);
              //document.getElementById("bodyErr").innerHTML = h;      
-            document.getElementById("bodyErr").innerHTML = w*.45/((0.025*h)**2);
+            document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)**2);
             if (bmi < 18.5){
-		      document.getElementById("bodyErr").innerHTML = w*.45/((0.025*h)**2) + "<br>underweight";
+
+		      document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)**2) + "<br>underweight";
             }
             else if (bmi >= 18.5 && bmi < 25){
-		      document.getElementById("bodyErr").innerHTML = w*.45/((0.025*h)**2) + "<br>normal weight";
+		      document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)**2) + "<br>normal weight";
             }
             else if (bmi < 30 && bmi >= 25){
-		      document.getElementById("bodyErr").innerHTML = w*.45/((0.025*h)**2) + "<br>overweight";
+		      document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)**2) + "<br>overweight";
 		      }
             else if (bmi >= 30){
-		      document.getElementById("bodyErr").innerHTML = w*.45/((0.025*h)**2) + "<br>obese";
+		      document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)**2) + "<br>obese";
 		      }
 
          }
