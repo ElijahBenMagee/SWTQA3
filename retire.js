@@ -13,9 +13,11 @@ function retireForm(){
 		document.getElementById("retireErr").innerHTML = a+g/(w*s*1.35/100) + " years old.";
 	    }
 
+
          }
-	 catch{
+	 catch(err){
 	      document.getElementById("retireErr").innerHTML = "Bad input, try again.";
+	      document.getElementById("demo").name = err.message;
 	 
          }
       }
