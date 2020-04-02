@@ -13,6 +13,7 @@ function retireForm(){
 		document.getElementById("retireErr").innerHTML = a+g/(w*s*1.35/100) + " years old.";
 	    }
 
+
          }
 	 catch{
 	      document.getElementById("retireErr").innerHTML = "Bad input, try again.";
