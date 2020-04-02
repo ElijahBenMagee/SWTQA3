@@ -2,7 +2,8 @@
 language: node_js
 node_js:
  - "node"
-
+install:
+ - npm install --save-dev jest
 
 script:
  - npm test
