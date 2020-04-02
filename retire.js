@@ -20,4 +20,5 @@ function retireForm(){
 	      document.getElementById("retireErr").name = err.message;
 	 
          }
+	 return 3;
       }
