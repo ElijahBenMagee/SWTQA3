@@ -7,6 +7,7 @@
     "jshint": "^2.6.0"
   },
   "scripts": {
+
     "test": "jshint retire.js"
   }
 }
