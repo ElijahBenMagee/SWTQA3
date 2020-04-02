@@ -7,8 +7,7 @@
     "jshint": "^2.6.0"
   },
   "scripts": {
-    
-    "test:coveralls": "jest -- coverage --coverageReporters=text-lcov | coveralls",	
+  
     "test": "jshint retire.js"
   }
 }
