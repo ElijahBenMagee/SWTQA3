@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
-    "test": "jshint retire.js"
+    "test": "jshint retire.js",
+    "test:coverage": "jest --coverage"
   }
 }
