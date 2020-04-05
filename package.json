@@ -10,6 +10,6 @@
     "test": "jest",
     "test": "jshint retire.js",
     "test:coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   }
 }
