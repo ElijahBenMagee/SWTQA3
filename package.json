@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest",
     "test": "jshint retire.js",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest - -coverage -- coverageReporters=test-lcov | coveralls"
   }
 }
