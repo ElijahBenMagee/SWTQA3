@@ -1,11 +1,11 @@
 function retireForm(){
-	document.getElementById("retireErr").innerHTML = retire(w,a,s,g);	 
          //try{
 	     var w = parseFloat(document.getElementById("curSal").value);
 	     var a = parseFloat(document.getElementById("curAge").value);
 	     var s = parseFloat(document.getElementById("saved").value);
 	     var g = parseFloat(document.getElementById("goal").value);
-          
+	 document.getElementById("retireErr").innerHTML = retire(a,w,s,g);	 
+
          //   if (a+g/(w*s*1.35/100) >= 100){
 	 //	      document.getElementById("retireErr").innerHTML = "Goal cannot be met. You will die first";
          //   }else{
@@ -22,7 +22,7 @@ function retireForm(){
 	 //return 3;
       }
 
-function retire(w,a,s,g){
+function retire(a,w,s,g){
 	 
          try{
 	   
