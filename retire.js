@@ -22,3 +22,4 @@ function retireForm(){
          }
 	 return 3;
       }
+module.exports = retireForm;
