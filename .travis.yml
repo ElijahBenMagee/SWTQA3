@@ -12,6 +12,7 @@ addons:
 
 script:
  - npm run coveralls
+ - nopm run test
 
 notifications:
 	email: false
