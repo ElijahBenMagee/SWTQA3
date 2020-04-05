@@ -13,7 +13,7 @@ function retireForm(){
 	 //   }
 
 
-         }
+         //}
 	 //catch(err){
 	 //     document.getElementById("retireErr").innerHTML = "Bad input, try again.";
 	      //document.getElementById("retireErr").name = err.message;
