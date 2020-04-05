@@ -1,5 +1,5 @@
-const testVar = require('./retire');
+const testVar = require('./retireForm');
 
 test('adds 1 + 2 to equal 3', () => {
-  expect(retireForm(1, 2)).toBe(3);
+  expect(retireForm()).toBe(3);
 });
