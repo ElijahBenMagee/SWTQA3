@@ -4,7 +4,7 @@ node_js:
  - "node"
 
 install:
- - npm install coveralls
+ - npm install coveralls --save-dev
 
 script:
  - npm test
