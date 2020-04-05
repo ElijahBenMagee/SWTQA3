@@ -6,6 +6,10 @@ node_js:
 install:
  - npm install coveralls --save-dev
 
+addons:
+    code_climate:
+        repo_token: EXtEKAK5WdchMIQSnj42GLWpSIwQHhlOd
+
 script:
  - npm run coveralls
 
