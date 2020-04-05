@@ -5,5 +5,5 @@ test('Test 1', () => {
 });
 
 test('Test 2', () => {
-  expect(testVar("",50,50,50)).toBe("NaN years old.");
+  expect(testVar(50,"",100,100)).toBe("NaN years old.");
 });
