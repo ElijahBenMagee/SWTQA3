@@ -11,6 +11,6 @@ addons:
         repo_token: EXtEKAK5WdchMIQSnj42GLWpSIwQHhlOd
 
 script:
- - npm run coveralls
+ - npm run test:coveralls
  - npm run test
 
