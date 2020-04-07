@@ -29,7 +29,7 @@ function retire(a,w,s,g){
             if (a+g/(w*s*1.35/100) >= 100){
 		      return"Goal cannot be met. You will die first";
             }else{
-		return  a+g/(w*s*1.35/100) + " years old.";
+		return  parseInt(a+g/(w*s*1.35/100)) + " years old.";
 	    }
 
 
