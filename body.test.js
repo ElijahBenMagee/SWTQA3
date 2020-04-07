@@ -16,6 +16,11 @@ test('Test 5', () => {
   expect(testVar(6,0,300)).toBe("obese");
 });
 
+test('Test 7', () => {
+  expect(testVar(6,0,400)).toBe("obese");
+});
+
+
 test('Test 6', () => {
   expect(testVar(0,0,500)).toBe("Bad input, try again.");
 });
