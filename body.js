@@ -15,8 +15,9 @@ function body(h1,h2,w){
 	   
              var h = h1*12+h2;
              var bmi = w*0.45/((0.025*h)*(0.025*h));
-             //document.getElementById("bodyErr").innerHTML = h;      
-            //document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)*(0.025*h));
+            if (h == 0){
+		throw "Bad";
+		}
             if (bmi < 18.5){
 			return w*0.45/((0.025*h)*(0.025*h)) + "<br>underweight";
             }
