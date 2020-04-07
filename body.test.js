@@ -17,7 +17,7 @@ test('Test 5', () => {
 });
 
 test('Test 6', () => {
-  expect(testVar(0,0,500)).toBe("Bad Input, try again.");
+  expect(testVar(0,0,500)).toBe("Bad input, try again.");
 });
 
 
