@@ -5,7 +5,7 @@ function bodyForm(){
 	     var h1 = parseInt(document.getElementById("heightf").value);
 	     var h2 = parseInt(document.getElementById("heighti").value);
 	     var w = parseInt(document.getElementById("weight").value);
-             body(h1,h2,w);
+             document.getElementById("bodyErr").innerHTML = body(h1,h2,w);
            
       }
 
@@ -16,7 +16,7 @@ function body(h1,h2,w){
              var h = h1*12+h2;
              var bmi = w*0.45/((0.025*h)*(0.025*h));
              //document.getElementById("bodyErr").innerHTML = h;      
-            document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)*(0.025*h));
+            //document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)*(0.025*h));
             if (bmi < 18.5){
 			return w*0.45/((0.025*h)*(0.025*h)) + "<br>underweight";
             }
