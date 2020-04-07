@@ -19,13 +19,16 @@ function body(h1,h2,w){
 		throw "Bad";
 		}
             if (bmi < 18.5){
-			return w*0.45/((0.025*h)*(0.025*h)) + "<br>underweight";
-            }
+			//return w*0.45/((0.025*h)*(0.025*h)) + "<br>underweight";
+                        return "underweight"; 
+   	   }
             else if (bmi >= 18.5 && bmi < 25){
-		      return w*0.45/((0.025*h)*(0.025*h)) + "<br>normal weight";
+		      //return w*0.45/((0.025*h)*(0.025*h)) + "<br>normal weight";
+		      return "normal weight";
             }
             else if (bmi < 30 && bmi >= 25){
-		      return w*0.45/((0.025*h)*(0.025*h)) + "<br>overweight";
+		      return "overweight";
+		      //return w*0.45/((0.025*h)*(0.025*h)) + "<br>overweight";
 		      }
             else if (bmi >= 30){
 			return "obese";
