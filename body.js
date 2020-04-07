@@ -30,7 +30,7 @@ function body(h1,h2,w){
 		      return "overweight";
 		      //return w*0.45/((0.025*h)*(0.025*h)) + "<br>overweight";
 		      }
-            else if (bmi >= 30){
+            else {
 			return "obese";
 		      //return w*0.45/((0.025*h)*(0.025*h)) + "<br>obese";
 		      }
