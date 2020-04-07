@@ -13,7 +13,7 @@ test('Test 4', () => {
 });
 
 test('Test 5', () => {
-  expect(testVar(6,0,300)).toBe("obese");
+  expect(testVar(6,0,300)).toBe("obese!");
 });
 
 test('Test 7', () => {
