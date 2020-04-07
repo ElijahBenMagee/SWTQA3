@@ -14,7 +14,7 @@ function body(h1,h2,w){
          try{
 	   
              var h = h1*12+h2;
-             var bmi = w*0.45/((0.025*h)**2);
+             var bmi = w*0.45/((0.025*h)*(0.025*h));
              //document.getElementById("bodyErr").innerHTML = h;      
             document.getElementById("bodyErr").innerHTML = w*0.45/((0.025*h)*(0.025*h));
             if (bmi < 18.5){
