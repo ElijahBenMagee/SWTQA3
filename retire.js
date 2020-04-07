@@ -43,7 +43,7 @@ function retire(a,w,s,g){
 	     
 	 
          }
-	 return 3;
+
       }
 
 module.exports = retire;
