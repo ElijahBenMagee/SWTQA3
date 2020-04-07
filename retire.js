@@ -25,6 +25,10 @@ function retireForm(){
 function retire(a,w,s,g){
 	 
          try{
+ 	   
+            if (w == 0){
+		throw "yo";
+	}
 	   
             if (a+g/(w*s*1.35/100) >= 100){
 		      return"Goal cannot be met. You will die first";
